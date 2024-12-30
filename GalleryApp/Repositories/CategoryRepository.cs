@@ -23,8 +23,20 @@ public class CategoryRepository
                     new Component
                     {
                         Title = "Grid",
-                        Description = "Organiza os elementos dentro de uma tabela",
+                        Description = "Organiza os elementos dentro de uma tabela.",
                         Page = typeof(GridLayoutPage)
+                    },
+                    new Component
+                    {
+                        Title = "AbsoluteLayout",
+                        Description = "Liberdade total para posicionar os elementos na tela.",
+                        Page = typeof(AbsoluteLayoutPage)
+                    },
+                    new Component
+                    {
+                        Title = "RelativeLayout",
+                        Description = "Organiza os elementos de forma sequencial com muitas opções de personalização.",
+                        Page = typeof(FlexLayoutPage)
                     }
                 ]
             },
