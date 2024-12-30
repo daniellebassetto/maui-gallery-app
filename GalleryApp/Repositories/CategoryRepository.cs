@@ -34,7 +34,7 @@ public class CategoryRepository
                     },
                     new Component
                     {
-                        Title = "RelativeLayout",
+                        Title = "FlexLayout",
                         Description = "Organiza os elementos de forma sequencial com muitas opções de personalização.",
                         Page = typeof(FlexLayoutPage)
                     }
