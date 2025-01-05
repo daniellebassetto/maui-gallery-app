@@ -1,4 +1,4 @@
-namespace GalleryApp.Views.Layouts;
+namespace MAUIGalleryApp.Views.Layouts;
 
 public partial class AbsoluteLayoutPage : ContentPage
 {

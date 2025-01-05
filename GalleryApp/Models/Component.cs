@@ -1,4 +1,4 @@
-﻿namespace GalleryApp.Models;
+﻿namespace MAUIGalleryApp.Models;
 
 public class Component
 {

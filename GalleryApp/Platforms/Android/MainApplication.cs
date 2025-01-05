@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace GalleryApp
+namespace MAUIGalleryApp
 {
     [Application]
     public class MainApplication : MauiApplication

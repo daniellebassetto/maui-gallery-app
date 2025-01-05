@@ -1,4 +1,4 @@
-namespace GalleryApp.Views;
+namespace MAUIGalleryApp.Views;
 
 public partial class MainPage : ContentPage
 {

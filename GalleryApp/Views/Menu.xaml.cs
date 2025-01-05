@@ -1,6 +1,6 @@
-using GalleryApp.Repositories;
+using MAUIGalleryApp.Repositories;
 
-namespace GalleryApp.Views;
+namespace MAUIGalleryApp.Views;
 
 public partial class Menu : ContentPage
 {
