@@ -1,8 +1,8 @@
-﻿using GalleryApp.Models;
-using GalleryApp.Views.Components.Mains;
-using GalleryApp.Views.Layouts;
+﻿using MAUIGalleryApp.Models;
+using MAUIGalleryApp.Views.Components.Mains;
+using MAUIGalleryApp.Views.Layouts;
 
-namespace GalleryApp.Repositories;
+namespace MAUIGalleryApp.Repositories;
 
 public class CategoryRepository
 {

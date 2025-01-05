@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace GalleryApp
+namespace MAUIGalleryApp
 {
     public class Program
     {
