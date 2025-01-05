@@ -1,4 +1,5 @@
 ﻿using GalleryApp.Models;
+using GalleryApp.Views.Components.Mains;
 using GalleryApp.Views.Layouts;
 
 namespace GalleryApp.Repositories;
@@ -40,6 +41,24 @@ public class CategoryRepository
                     }
                 ]
             },
+            new Category
+            {
+                Name = "Componentes (Views)",
+                Components = [
+                    new Component
+                    {
+                        Title = "BoxView",
+                        Description = "Componente que cria uma caixa para ser apresentada",
+                        Page = typeof(BoxViewPage)
+                    },
+                    new Component
+                    {
+                        Title = "Label",
+                        Description = "Apresenta um texto na tela",
+                        Page = typeof(LabelPage)
+                    }
+                ]
+            }
         ];
 
         return categories;
